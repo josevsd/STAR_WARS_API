@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+.Titulo{
+    text-align: center;
+    color: gold;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px white,
+                 1px 2px 1px white,
+                 1px 3px 1px white,
+                 1px 4px 1px white;
+}
+.info{
+    color: gold;
+}
+.pessoas{
+    color:gold;
+    margin-left: 42%;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px white,
+                 1px 2px 1px white;
+}
+
+.input_designer{
+    border: 2px solid gold;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px;
+}
+
+.botao{
+    border-color: gold;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: gold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.input_designer:focus{
+    border-color: gold;
+    box-shadow: 0 0 8px 0 gold;
+}
